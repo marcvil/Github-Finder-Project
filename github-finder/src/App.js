@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import {BrowserRouter as Router,Route,Routes} from 'react-router-dom';
 import  Navbar  from "./components/layout/Navbar.jsx";
@@ -12,7 +11,7 @@ function App() {
     <Router>
       <div className='flex flex-col justify-between h-screen'>
         <Navbar/>
-       <main className='container mx-auto px-3 pb-12'>
+       <main className='container mx-auto px-3 pb-12 s'>
         <Routes>
           <Route path='/' element={<Home/>} />
           <Route path='/home' element={<Home/>} />

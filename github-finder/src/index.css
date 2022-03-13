@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.backgroud--grey{
+    background-color: #333333;
+}
